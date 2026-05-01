@@ -1,0 +1,30 @@
+node_modules/
+.next/
+out/
+
+# Environment variables
+.env
+.env.local
+
+# Python virtualenv (root or ml-service)
+.venv/
+ml-service/.venv/
+ml-service/__pycache__/
+ml-service/services/__pycache__/
+*.pyc
+
+# YOLO weights (auto-downloaded)
+ml-service/*.pt
+ml-service/runs/
+
+# Uploads
+data/
+
+# Build artifacts
+tsconfig.tsbuildinfo
+
+# Claude Code session data
+.claude/
+
+# ML service has its own git repo (deployed separately to HuggingFace)
+ml-service/
