@@ -84,7 +84,7 @@ export function ResultsView({ result, preview, filename }: {
       {caption && (
         <div className="bg-white/5 border border-white/10 rounded-xl px-5 py-3 flex items-start gap-3">
           <span className="text-slate-500 text-xs uppercase tracking-widest mt-0.5 shrink-0">Scene</span>
-          <p className="text-slate-200 italic">"{caption}"</p>
+          <p className="text-slate-200 italic">&ldquo;{caption}&rdquo;</p>
         </div>
       )}
 
